@@ -1,0 +1,73 @@
+package Java201.methods;
+
+public class Methods {
+	//Methodun ne yaptığı nasıl yaptığından daha önemlidir
+	public static void main(String[] args) {
+		//Sıkça kullandığımız println komutu da bir methottur
+		
+		//Method adlandırmaları ve imzalar
+		
+		/*
+		 * visibility -> Methoda kimler erişebilir
+		 * type -> Dönüş tipi
+		 * Name -> Method ismi
+		 * Argument List -> Methodun alabileceği parametreler
+		 */
+		Methods meth = new Methods();
+		meth.helloWorld();
+		int toplam =meth.topla(5, 10);
+		System.out.println(toplam);
+		helloWorldStatic();
+		
+		/*Method imzaları 
+		 * methodların geri dönüş tipi method imzasına dahil değildir
+		 * method imzasına -> method ismi ve aldığı parametreler dahildir ve parametre sırası dahil
+		 */
+		
+		/*Method parametreleri
+		 * parametreler methodları genelleştirir
+		 * parametreler -> pass by value ve pass by reference
+		 * javada pass by reference desteklenmez
+		 * 
+		 */
+		int x = 20;
+		System.out.println(x);
+		meth.passByValue(x); // eğer int x yerine final int x olsaydı değişmezdi
+		System.out.println(x); //eski haline geri döndü
+		
+		int[] sayilar = {1,2,3};
+		meth.passByReference(sayilar);//eski haline dönmedi çünkü pointerlar var
+		for(int i = 0; i< sayilar.length;i++) {
+			System.out.println(sayilar[i]); 
+		}
+		
+	}
+	private void helloWorld() {
+		System.out.println("method hello world");
+	}
+	private static void helloWorldStatic() {
+		System.out.println("Static Hello World");
+	}
+	private int topla(int x ,int y) {
+		return x + y;
+	}
+	private int topla(float x ,int y) {
+		return (int) x + y;
+	}
+	public void passByValue(int x) {
+		System.out.println("PBV "+x);
+		x = 15;
+		System.out.println("PBV "+x);
+	}
+	public void passByReference(int[] sayilar) {
+		for(int i = 0; i< sayilar.length;i++) {
+			sayilar[i] *= 2;
+		}
+	}
+	public void varArgs(int... list) {
+		int total = 0;
+		for(int i : list) {
+			
+		}
+	}
+}

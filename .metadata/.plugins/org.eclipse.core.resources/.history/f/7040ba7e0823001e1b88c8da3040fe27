@@ -1,0 +1,15 @@
+package Java201.methods;
+
+public class StaticMethods {
+	public static void main(String[] args) {
+		/*
+		 * statik methodlar sadece başka statik methodlardan çağrılabilir
+		 * sadece statik veriye erişim sağlayabilir
+		 * this ve super anahtar kelimeleri kullanılamaz
+		 */
+	}
+	
+	public static void merhaba() {
+		System.out.println("Merhaba");
+	}
+}

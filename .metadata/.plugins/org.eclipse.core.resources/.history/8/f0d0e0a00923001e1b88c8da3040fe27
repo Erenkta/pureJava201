@@ -1,0 +1,13 @@
+package Java201.methods;
+
+public class MethodsLab {
+	public static void main(String[] args) {
+		
+	}
+	public static int max(int x, int y, int z) {
+		int max = x;
+		if(y > max) {
+			max = y;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package Java201;
+
+public class Methods {
+	//Methodun ne yaptığı nasıl yaptığından daha önemlidir
+	public static void main(String[] args) {
+		//Sıkça kullandığımız println komutu da bir methottur
+		
+		//Method adlandırmaları ve imzalar
+	}
+	
+}

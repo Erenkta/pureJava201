@@ -1,0 +1,36 @@
+package Java201;
+
+public class Methods {
+	//Methodun ne yaptığı nasıl yaptığından daha önemlidir
+	public static void main(String[] args) {
+		//Sıkça kullandığımız println komutu da bir methottur
+		
+		//Method adlandırmaları ve imzalar
+		
+		/*
+		 * visibility -> Methoda kimler erişebilir
+		 * type -> Dönüş tipi
+		 * Name -> Method ismi
+		 * Argument List -> Methodun alabileceği parametreler
+		 */
+		Methods meth = new Methods();
+		meth.helloWorld();
+		int toplam =meth.topla(5, 10);
+		helloWorldStatic();
+		
+		/*Method imzaları 
+		 * 
+		 */
+		
+	}
+	private void helloWorld() {
+		System.out.println("method hello world");
+	}
+	private static void helloWorldStatic() {
+		System.out.println("Static Hello World");
+	}
+	private int topla(int x ,int y) {
+		return x + y;
+	}
+	
+}
