@@ -1,11 +1,10 @@
 package Java201.OOP.Polymorphism.LAB;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
 		DbConnection dbConnection = new OraceDb(); 
 		//Kendini inherit edenlerin referansını tutabilir !! Çok kullanılır
 		dbConnection.openConnection(); //Oracle'daki çalıştı
@@ -33,11 +32,10 @@ public class Main {
 			kullanıcıDB.openConnection();
 		}
 		*/
-		DbConnection kullanıcıDB = (DbConnection) Class.forName(args[0])
-				.getDeclaredConstructor()
-				.newInstance();
+		//DbConnection kullanıcıDB = (DbConnection) Class.forName(args[0]).newInstance();
 		//Run configuration'dan yazıyorsun ve SOLID'e daha uygun bir hale geliyor
-		kullanıcıDB.openConnection();
+		//kullanıcıDB.openConnection();
+		
 
 
 	}

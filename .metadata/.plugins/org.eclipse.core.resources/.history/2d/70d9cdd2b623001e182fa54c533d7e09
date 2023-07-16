@@ -1,0 +1,12 @@
+package Java201.Exceptions;
+
+public class CheckedException {
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void yaz() {
+		File file = new File("read.me");
+		FileWriter fileWriter = null;
+	}
+}

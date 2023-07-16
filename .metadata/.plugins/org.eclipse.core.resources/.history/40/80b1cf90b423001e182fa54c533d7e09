@@ -1,0 +1,10 @@
+package Java201.Exceptions;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Syntax Hatası-> derleme zamaanı
+
+	}
+
+}

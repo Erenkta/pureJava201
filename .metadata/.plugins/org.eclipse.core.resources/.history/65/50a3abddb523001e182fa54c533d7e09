@@ -1,0 +1,31 @@
+package Java201.Exceptions;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Syntax Hatası -> derleme zamaanı
+		//Runtime -> Çalışma esnasında alınan hatalardır
+		
+		/*
+		 * Errorlar JVM ile alakalı müdahale edilemez
+		 */
+		
+		//
+		/*
+		 * try-catch-finally ile hata yönetimi yaparız
+		 * try-> hata olabilecek kod bloğu
+		 * catch-> hatayı yakalayan
+		 * finally-> hata olsa da olmasa da ne yapılacağını söyleyen blok
+		 */
+		
+		int x = 1;
+		int y = 0;
+		try {
+			System.out.println(x/y);
+		}catch(Exception e) {
+			System.out.println("Hata = "+ e);
+		}
+
+	}
+
+}

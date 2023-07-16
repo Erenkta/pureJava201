@@ -1,0 +1,24 @@
+package Java201.Exceptions;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class CheckedException {
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void yaz() {
+		File file = new File("read.me");
+		FileWriter fileWriter = null; //IO exception fırlattığı için try catch'de yapmalıyız ya da throw yapmalıyız
+		
+		try {
+			fileWriter = new FileWriter(file);
+		}catch (IOException e) {
+			e.printStackTrace();
+		}finally {
+			fileWriter.close();
+		}
+	}
+}
