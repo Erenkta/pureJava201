@@ -1,0 +1,8 @@
+package Java201.OOP.ClassesAndObjects;
+
+public class Daire {
+	double r;
+	double alan;
+	double cevre;
+
+}

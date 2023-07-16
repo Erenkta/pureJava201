@@ -1,0 +1,10 @@
+package Java201.OOP.ClassesAndObjects;
+
+public class Classes {
+
+	public static void main(String[] args) {
+		//Classlar Attribıtes ve Behaviours'a sahiptirler
+		//Sınıflar method sayesinde dış dünya ile bağlantı kurar
+	}
+
+}

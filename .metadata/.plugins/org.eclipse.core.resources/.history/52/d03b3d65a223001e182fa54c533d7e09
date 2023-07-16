@@ -1,0 +1,11 @@
+package Java201.OOP.ErisimKontrol;
+
+public class Ogrenci {
+	/*Erişimler 
+	 * public
+	 * protected --> inherit edilenlere public diğerlerine private
+	 * default -->aynı pakette yer alan ve aynı sınıfta olanlara public
+	 * private
+	 */
+
+}

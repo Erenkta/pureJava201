@@ -1,0 +1,11 @@
+package Java201.OOP.ErisimKontrol;
+
+public class Erisim {
+
+	public static void main(String[] args) {
+		Ogrenci ogr = new Ogrenci();
+		ogr.isim = "Ahmet";
+
+	}
+
+}

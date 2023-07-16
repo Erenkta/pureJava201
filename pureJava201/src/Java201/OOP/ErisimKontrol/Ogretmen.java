@@ -1,0 +1,7 @@
+package Java201.OOP.ErisimKontrol;
+
+public class Ogretmen {
+	private int ogretmenId;
+	private String dal;
+	private String isim;
+}

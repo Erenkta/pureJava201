@@ -1,0 +1,25 @@
+package Java201.OOP.ClassesAndObjects;
+
+public class Daire {
+	double r;
+	double alan;
+	double cevre;
+	
+	public Daire() {
+		
+	}
+	public Daire(double r,double alan,double cevre) {
+		this.alan = alan;
+		this.r = r;
+		this.cevre = cevre;
+	}
+	
+	public void alanHesapla(double r) {
+		this.alan = Math.PI * r *r;
+	}
+	
+	public void daireHesapla() {
+		this.cevre = 2*Math.PI*this.r;
+	}
+
+}

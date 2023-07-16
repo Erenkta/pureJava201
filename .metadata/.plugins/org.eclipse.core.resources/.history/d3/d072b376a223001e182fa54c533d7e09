@@ -1,0 +1,10 @@
+package Java201.OOP.ErisimKontrol;
+
+public class Erisim {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
