@@ -1,0 +1,22 @@
+package Java201.OOP.Inheritance;
+
+public class Inheritance {
+	public static void main(String[] args) {
+		//Çok seviye Kalıtım = A->B'den B->C'den türetilmiş
+		//Hiyerarşık Kalıtım = B->A'dan C->A'dan türetilmiş
+		
+		Kare kare = new Kare();
+		kare.setRenk("Kırmızı"); //Bu sayede atama yapabildik
+		kare.kenarUzunluk = 12; //Bu da kendisinin
+		
+		Daire daire = new Daire();
+		daire.setPosX(10);
+		daire.yaricap = 12 ;
+		// ------------------------------ // // --------------------- // 
+		
+		SuperClass spr = new SuperClass(); //constructor çalıştı
+		System.out.println();
+		ChildClass chld = new ChildClass(); //Once Extend ettiği class'ın constructor'u sonra kendisi çalıştı
+		SuperChildClass sprChld = new SuperChildClass();
+	}
+}

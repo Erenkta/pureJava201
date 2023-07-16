@@ -1,0 +1,8 @@
+package Java201.OOP.Inheritance;
+
+public class SuperChildClass extends ChildClass{
+	public SuperChildClass(String parameter) {
+		System.out.println("Super Child Constructor");
+	}
+
+}

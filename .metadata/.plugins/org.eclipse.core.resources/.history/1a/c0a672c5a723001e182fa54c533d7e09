@@ -1,0 +1,7 @@
+package Java201.OOP.Inheritance;
+
+public class ChildClass {
+	public ChildClass() {
+		System.out.println("Child Class Constructor");
+	}
+}

@@ -1,0 +1,6 @@
+package Java201.OOP.Inheritance;
+
+public class Kare extends Sekil{
+	private int kareAlan;
+	private int kareCevre;
+}

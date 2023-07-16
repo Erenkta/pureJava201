@@ -1,0 +1,8 @@
+package Java201.OOP.Inheritance;
+
+public class Inheritance {
+	public static void main(String[] args) {
+		//Çok seviye Kalıtım = A->B'den B->C'den türetilmiş
+		//Hiyerarşık Kalıtım = B->A'dan C->A'dan türetilmiş
+	}
+}

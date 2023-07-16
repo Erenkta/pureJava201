@@ -1,0 +1,7 @@
+package Java201.OOP.Inheritance;
+
+public class Sekil {
+	private String renk;
+	private int posX;
+	private int posY;
+}
