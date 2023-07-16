@@ -1,0 +1,6 @@
+package Java201.OOP.Abstraction;
+
+public class Oyuncu {
+	private String isim;
+	private in numara
+}

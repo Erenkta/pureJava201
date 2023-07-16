@@ -33,9 +33,8 @@ public class Main {
 			kullanıcıDB.openConnection();
 		}
 		*/
-		DbConnection kullanıcıDB = (DbConnection) Class.forName(args[0])
-				.getDeclaredConstructor()
-				.newInstance();
+		@SuppressWarnings("deprecation")
+		DbConnection kullanıcıDB = (DbConnection) Class.forName(args[0]).getDeclaredConstructor().newInstance();
 		//Run configuration'dan yazıyorsun ve SOLID'e daha uygun bir hale geliyor
 		kullanıcıDB.openConnection();
 
