@@ -1,0 +1,5 @@
+package Java201.OOP.Polymorphism;
+
+public class FileLogger extends BaseLogger{
+
+}

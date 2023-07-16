@@ -1,0 +1,15 @@
+package Java201.OOP.Polymorphism.LAB;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DbConnection dbConnection = new OraceDb(); 
+		//Kendini inherit edenlerin referansını tutabilir !! Çok kullanılır
+		dbConnection.openConnection(); //Oracle'daki çalıştı
+		
+		//Şimdi şöyle bir örnek yapalım
+		DbConnection kullanıcıDB;
+
+	}
+
+}

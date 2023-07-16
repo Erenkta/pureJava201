@@ -1,0 +1,10 @@
+package Java201.OOP.Polymorphism.LAB;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DbConnection dbConnection = new OraceDb(); //Kendini inherit edenlerin referansını tutabilr
+
+	}
+
+}

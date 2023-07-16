@@ -1,0 +1,27 @@
+package Java201.OOP.Polymorphism.LAB;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DbConnection dbConnection = new OraceDb(); 
+		//Kendini inherit edenlerin referansını tutabilir !! Çok kullanılır
+		dbConnection.openConnection(); //Oracle'daki çalıştı
+		
+		//Şimdi şöyle bir örnek yapalım
+		DbConnection kullanıcıDB;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Database Seçiniz : 1-> MySQL 2->Oracle");
+		int secim = scanner.nextInt();
+		
+		switch(secim) {
+		case 1 :
+			kullanıcıDB = new MySqlDB();
+			break;
+		}
+		
+
+	}
+
+}

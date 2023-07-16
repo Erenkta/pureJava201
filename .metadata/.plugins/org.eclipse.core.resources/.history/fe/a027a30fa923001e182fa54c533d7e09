@@ -1,0 +1,8 @@
+package Java201.OOP.Polymorphism;
+
+public class BaseLogger {
+	int logTime;
+	public void Log() {
+		System.out.println("Logged");
+	}
+}
